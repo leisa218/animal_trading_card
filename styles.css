@@ -1,0 +1,44 @@
+/* add your CSS here */
+*{
+	text-align: center;
+	margin: 0 auto;
+}
+body{
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+.card{
+	background:#000 url('http://blog.nklinke.de/wp-content/uploads/2017/11/giphy.gif') no-repeat top left;
+	padding:10px;
+	width:300px;
+	-webkit-box-shadow: 10px 10px 13px 3px rgba(51,51,51,1);
+	-moz-box-shadow: 10px 10px 13px 3px rgba(51,51,51,1);
+	box-shadow: 10px 10px 13px 3px rgba(51,51,51,1);
+	margin-bottom:30px;
+}
+.italic{
+	font-style: italic;
+}
+h3.title{
+	font-size:3rem;
+}
+.title, .card-content span{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ul.animal-list, ul.animal-list li{
+	list-style:none;
+}
+ul.animal-list li{
+	padding:5px 0 5px 10px;
+}
+.border{
+	border:1px solid #51d4d6;
+	padding:10px 10px 10px 10px;
+	margin-bottom:5px;
+}
+.animal-image{
+	margin: 10px 0 15px 0;
+	border:1px solid #51d4d6;
+}
